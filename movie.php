@@ -25,6 +25,27 @@ class Movie
     }
     public function getName(){
      return $this->name;   
+    } 
+    
+    public function setDescription($name=""){
+     $this->description = $description;  
+    }
+    public function getDescription(){
+     return $this->description;   
+    } 
+    
+    public function setDuration($name=""){
+     $this->duration = $duration;  
+    }
+    public function getDuration(){
+     return $this->duration;   
+    } 
+    
+    public function setReleaseDate($name=""){
+    $this->releaseDate = $releaseDate;  
+    }
+    public function getReleaseDate(){
+     return $this->releaseDate;   
     }
 }
 
